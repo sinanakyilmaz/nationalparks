@@ -15,7 +15,7 @@
         <mirror>
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
-            <url>${NEXUS_URL}/repository/maven-all-public</url>
+            <url>$http://nexus-cicd.apps.opstrainingonaws2.com.opstrainingonaws.com/repository/maven-all-public</url>
         </mirror>
     </mirrors>
     <profiles>
